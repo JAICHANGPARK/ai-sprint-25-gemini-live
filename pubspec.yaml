@@ -6,12 +6,15 @@ version: 0.1.0
 environment:
   sdk: ^3.8.1
 
+# 워크스페이스에 포함될 패키지 경로를 지정합니다.
+workspace:
+  - packages/gemini_live_api
+
 dependencies:
   flutter:
     sdk: flutter
 
-  firebase_ai: ^2.0.0
-  firebase_core: ^3.13.1
+  gemini_live_api:
 
 dev_dependencies:
   flutter_test:
