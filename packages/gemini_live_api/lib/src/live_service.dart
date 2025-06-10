@@ -22,7 +22,6 @@ class LiveConnectParameters {
   final String model;
   final LiveCallbacks callbacks;
   final GenerationConfig? config;
-  // *** 수정된 부분: systemInstruction 추가 ***
   final Content? systemInstruction;
 
   LiveConnectParameters({
@@ -37,6 +36,7 @@ class LiveConnectParameters {
 class LiveService {
   final String apiKey;
   final String apiVersion;
+
   // *** 추가: SDK 버전 및 User-Agent 정보 ***
   final String _sdkVersion = '1.0.0'; // Dart SDK의 자체 버전
   final String _dartVersion; // Dart 런타임 버전

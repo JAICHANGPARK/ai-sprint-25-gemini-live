@@ -15,6 +15,13 @@ dependencies:
     sdk: flutter
 
   gemini_live_api:
+  image_picker: ^1.1.2 # 이미지 선택
+  record: ^6.0.0      # 오디오 녹음
+  permission_handler: ^12.0.0+1 # 마이크 권한 요청
+  path_provider: ^2.1.5
+  audioplayers: ^6.4.0
+  camera: ^0.11.1 # 카메라 제어
+  image: ^4.5.4   # 이미지 포맷 변환
 
 dev_dependencies:
   flutter_test:

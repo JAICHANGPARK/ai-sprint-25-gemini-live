@@ -1,0 +1,1 @@
+enum ResponseMode { text, audio }
