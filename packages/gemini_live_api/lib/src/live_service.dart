@@ -78,7 +78,7 @@ class LiveService {
   // *** connect 메소드 전체를 아래 코드로 교체 ***
   Future<LiveSession> connect(LiveConnectParameters params) async {
     final websocketUri = Uri.parse(
-      'wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.$apiVersion.GenerativeService.BidiGenerateContent?key=AIzaSyA0XeTPk4XczNdZZ0fu0k1tKZNb2VEtwKU',
+      'wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.$apiVersion.GenerativeService.BidiGenerateContent?key=',
     );
 
     final userAgent = 'google-genai-sdk/1.19.0 gl-python/3.13.3';
